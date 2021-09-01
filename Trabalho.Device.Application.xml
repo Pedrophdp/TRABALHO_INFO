@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbolconfiguration xmlns="http://www.3s-software.com/schemas/Symbolconfiguration.xsd">
+  <Header>
+    <Version>3.5.6.0</Version>
+    <SymbolConfigObject version="3.5.6.0" />
+    <ProjectInfo name="Trabalho" devicename="Device" appname="Application" />
+  </Header>
+  <TypeList>
+    <TypeSimple name="T_BOOL" size="1" swapsize="0" typeclass="Bool" iecname="BOOL" />
+    <TypeSimple name="T_REAL" size="4" swapsize="4" typeclass="Real" iecname="REAL" />
+    <TypeSimple name="T_INT" size="2" swapsize="2" typeclass="Int" iecname="INT" />
+  </TypeList>
+  <NodeList>
+    <Node name="Application">
+      <Node name="INPUT">
+        <Node name="Abre_BA" type="T_BOOL" access="Write" />
+        <Node name="Abre_Gin" type="T_BOOL" access="Write" />
+        <Node name="Abre_Refrig" type="T_BOOL" access="Write" />
+        <Node name="Abre_Vermt" type="T_BOOL" access="Write" />
+        <Node name="AUTO" type="T_BOOL" access="Write" />
+        <Node name="Drena_Refrig" type="T_BOOL" access="Write" />
+        <Node name="Drena_RM" type="T_BOOL" access="Write" />
+        <Node name="EMG" type="T_BOOL" access="Write" />
+        <Node name="LIGA" type="T_BOOL" access="Write" />
+        <Node name="Liga_Agitador" type="T_BOOL" access="Write" />
+        <Node name="Liga_BA" type="T_BOOL" access="Write" />
+        <Node name="Liga_FV201" type="T_BOOL" access="Write" />
+        <Node name="LigaM201" type="T_BOOL" access="Write" />
+        <Node name="RETART_SYSTEM" type="T_BOOL" access="Write" />
+      </Node>
+      <Node name="OUTPUT">
+        <Node name="BA_101" type="T_BOOL" access="Read" />
+        <Node name="Batch" type="T_INT" access="Read" />
+        <Node name="FQ_101" type="T_REAL" access="Read" />
+        <Node name="FQ_102" type="T_REAL" access="Read" />
+        <Node name="FQ_103" type="T_REAL" access="Read" />
+        <Node name="FV201" type="T_BOOL" access="Read" />
+        <Node name="FV_101" type="T_BOOL" access="Read" />
+        <Node name="FV_102" type="T_BOOL" access="Read" />
+        <Node name="FV_103" type="T_BOOL" access="Read" />
+        <Node name="FV_104" type="T_BOOL" access="Read" />
+        <Node name="FV_105" type="T_BOOL" access="Read" />
+        <Node name="FV_106" type="T_BOOL" access="Read" />
+        <Node name="FV_107" type="T_BOOL" access="Read" />
+        <Node name="LSH201" type="T_BOOL" access="Read" />
+        <Node name="LSH_102" type="T_BOOL" access="Read" />
+        <Node name="LSHH201" type="T_BOOL" access="Read" />
+        <Node name="LSL201" type="T_BOOL" access="Read" />
+        <Node name="LSL_101" type="T_BOOL" access="Read" />
+        <Node name="LSL_102" type="T_BOOL" access="Read" />
+        <Node name="M_101" type="T_BOOL" access="Read" />
+        <Node name="NivelRM" type="T_REAL" access="Read" />
+        <Node name="NivelTP" type="T_REAL" access="Read" />
+        <Node name="PWM_SY101" type="T_BOOL" access="Read" />
+        <Node name="SY101_VEL" type="T_REAL" access="Read" />
+        <Node name="TSL_101" type="T_BOOL" access="Read" />
+      </Node>
+    </Node>
+  </NodeList>
+</Symbolconfiguration>
