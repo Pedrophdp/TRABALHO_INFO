@@ -29,11 +29,13 @@
         <Node name="RETART_SYSTEM" type="T_BOOL" access="Write" />
       </Node>
       <Node name="OUTPUT">
+        <Node name="ALARME_VAZIO" type="T_BOOL" access="Read" />
         <Node name="BA_101" type="T_BOOL" access="Read" />
         <Node name="Batch" type="T_INT" access="Read" />
         <Node name="FQ_101" type="T_REAL" access="Read" />
         <Node name="FQ_102" type="T_REAL" access="Read" />
         <Node name="FQ_103" type="T_REAL" access="Read" />
+        <Node name="FQ_201" type="T_REAL" access="Read" />
         <Node name="FV201" type="T_BOOL" access="Read" />
         <Node name="FV_101" type="T_BOOL" access="Read" />
         <Node name="FV_102" type="T_BOOL" access="Read" />
@@ -48,12 +50,16 @@
         <Node name="LSL201" type="T_BOOL" access="Read" />
         <Node name="LSL_101" type="T_BOOL" access="Read" />
         <Node name="LSL_102" type="T_BOOL" access="Read" />
+        <Node name="LTP01_50" type="T_BOOL" access="Read" />
+        <Node name="M201" type="T_BOOL" access="Read" />
         <Node name="M_101" type="T_BOOL" access="Read" />
         <Node name="NivelRM" type="T_REAL" access="Read" />
         <Node name="NivelTP" type="T_REAL" access="Read" />
         <Node name="PWM_SY101" type="T_BOOL" access="Read" />
         <Node name="SY101_VEL" type="T_REAL" access="Read" />
         <Node name="TSL_101" type="T_BOOL" access="Read" />
+        <Node name="ZY201" type="T_BOOL" access="Read" />
+        <Node name="ZY202" type="T_BOOL" access="Read" />
       </Node>
     </Node>
   </NodeList>
