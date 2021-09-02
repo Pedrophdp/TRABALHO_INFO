@@ -8,7 +8,6 @@
   <TypeList>
     <TypeSimple name="T_BOOL" size="1" swapsize="0" typeclass="Bool" iecname="BOOL" />
     <TypeSimple name="T_REAL" size="4" swapsize="4" typeclass="Real" iecname="REAL" />
-    <TypeSimple name="T_INT" size="2" swapsize="2" typeclass="Int" iecname="INT" />
   </TypeList>
   <NodeList>
     <Node name="Application">
@@ -31,7 +30,7 @@
       <Node name="OUTPUT">
         <Node name="ALARME_VAZIO" type="T_BOOL" access="Read" />
         <Node name="BA_101" type="T_BOOL" access="Read" />
-        <Node name="Batch" type="T_INT" access="Read" />
+        <Node name="Batch" type="T_REAL" access="Read" />
         <Node name="FQ_101" type="T_REAL" access="Read" />
         <Node name="FQ_102" type="T_REAL" access="Read" />
         <Node name="FQ_103" type="T_REAL" access="Read" />
