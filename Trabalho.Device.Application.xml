@@ -14,21 +14,21 @@
   <NodeList>
     <Node name="Application">
       <Node name="INPUT">
-        <Node name="Abre_FV101" type="T_BOOL" access="Write" />
-        <Node name="Abre_FV102" type="T_BOOL" access="Write" />
-        <Node name="Abre_FV103" type="T_BOOL" access="Write" />
-        <Node name="Abre_FV104" type="T_BOOL" access="Write" />
-        <Node name="Abre_FV105" type="T_BOOL" access="Write" />
-        <Node name="Abre_FV106" type="T_BOOL" access="Write" />
-        <Node name="Abre_FV107" type="T_BOOL" access="Write" />
-        <Node name="Abre_FV201" type="T_BOOL" access="Write" />
-        <Node name="AUTO" type="T_BOOL" access="Write" />
-        <Node name="EMG" type="T_BOOL" access="Write" />
-        <Node name="LIGA" type="T_BOOL" access="Write" />
-        <Node name="Liga_BA101" type="T_BOOL" access="Write" />
-        <Node name="Liga_M101" type="T_BOOL" access="Write" />
-        <Node name="Liga_M201" type="T_BOOL" access="Write" />
-        <Node name="RETART_SYSTEM" type="T_BOOL" access="Write" />
+        <Node name="Abre_FV101" type="T_BOOL" access="ReadWrite" />
+        <Node name="Abre_FV102" type="T_BOOL" access="ReadWrite" />
+        <Node name="Abre_FV103" type="T_BOOL" access="ReadWrite" />
+        <Node name="Abre_FV104" type="T_BOOL" access="ReadWrite" />
+        <Node name="Abre_FV105" type="T_BOOL" access="ReadWrite" />
+        <Node name="Abre_FV106" type="T_BOOL" access="ReadWrite" />
+        <Node name="Abre_FV107" type="T_BOOL" access="ReadWrite" />
+        <Node name="Abre_FV201" type="T_BOOL" access="ReadWrite" />
+        <Node name="AUTO" type="T_BOOL" access="ReadWrite" />
+        <Node name="EMG" type="T_BOOL" access="ReadWrite" />
+        <Node name="LIGA" type="T_BOOL" access="ReadWrite" />
+        <Node name="Liga_BA101" type="T_BOOL" access="ReadWrite" />
+        <Node name="Liga_M101" type="T_BOOL" access="ReadWrite" />
+        <Node name="Liga_M201" type="T_BOOL" access="ReadWrite" />
+        <Node name="RETART_SYSTEM" type="T_BOOL" access="ReadWrite" />
       </Node>
       <Node name="OUTPUT">
         <Node name="ALARME_VAZIO" type="T_BOOL" access="Read" />
